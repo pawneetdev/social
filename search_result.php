@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <body bgcolor = "#B4EEB4">

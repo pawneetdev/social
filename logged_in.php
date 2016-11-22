@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <?php
@@ -21,11 +21,11 @@ if (loggedin())
 	if($query_run = mysql_query($query))
 	{
 	$name = mysql_result($query_run, 0, 'fname');
-	echo "<br><b><font style = 'clear: both; float: left; margin-left:500px;' size = '5px'>Welcome $name!</font></b>";
+	echo "<br><b><font style = 'clear: both; float: right; margin-right:45%;' size = '5px'>Welcome $name!</font></b>";
 	
 	$query = "SELECT `friend request` FROM `details` WHERE `id` = '$id'";
 			$query_run = mysql_query($query);
-			echo "<br><br><h3 style = 'margin-bottom: 0px; margin-left: 5px;'>Friend requests:</h3><br>";
+			echo "<br><br><h3 style = 'margin-bottom: 0px; margin-left:87.3%;'>Friend requests</h3><br>";
 			
 			while($rs = mysql_fetch_assoc($query_run))
 			{
@@ -54,7 +54,7 @@ if (loggedin())
 			}
 			}
 			else
-			echo "No friend requests";
+			echo "<div style = 'float:right;margin-right:50px;' >No friend requests</div>";
 			}		
 	//header('refresh:7');
 			

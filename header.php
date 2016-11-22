@@ -1,6 +1,6 @@
-
+<title>Social Media</title>
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <?php
@@ -25,6 +25,7 @@ include 'search.php';
 <a class = 'link' href = 'logged_in.php'>Home</a>
 <a class = 'link' href = 'friends.php'>Friends</a>
 <a class = 'link' href = 'settings.php'>Settings</a>
+<a class = 'link' href = 'chatbox.php'>Chat</a>
 <a class = 'link' href = 'logout.php'>Logout</a>
 </div>
 

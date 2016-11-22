@@ -1,3 +1,14 @@
+
+
+<link rel = "stylesheet" href = "css/style.css">	
+	<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById('myPopup');
+    popup.classList.toggle('show');
+}
+</script>
+
 <?php
 
 require 'database.php';
@@ -20,8 +31,11 @@ if (isset($_POST['email']) && isset($_POST['pass']))
 			{
 				$query_num_rows = mysql_num_rows($query_run);	
 			
-				if($query_num_rows == 0)
-					header('Location: login_attempt.php');
+				if($query_num_rows == 0){
+					
+  			echo "<script type='text/javascript'>alert('INVALID ACCOUNT');</script>";
+			header("Refresh:0");
+				}
 				else if($query_num_rows == 1)
 					{
 						$user_id = mysql_result($query_run, 0, 'id');

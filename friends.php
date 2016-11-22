@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <body bgcolor = "#B4EEB4">
@@ -25,13 +25,14 @@ if (loggedin())
 			{
 			if($element>0)
 			{
-			$q = "SELECT `fname`, `lname`, `id` FROM `details` WHERE `id` = $element";
+			$q = "SELECT `fname`, `lname`, `id`,'theme' FROM `details` WHERE `id` = $element";
 			$qr = mysql_query($q);
 			while($query_row = mysql_fetch_assoc($qr))
 					{
 					$fname = $query_row['fname'];
 					$lname = $query_row['lname'];
 					$id_user = $query_row['id'];
+					$theme = $query_row['theme'];
 					}
 			echo '<a style = "margin-left: 0px;" class = "link" href = "users.php?id_sent='.$id_user.'">'.$i.'.) '.$fname.' '.$lname.'</a><br>';
 			$i++;
