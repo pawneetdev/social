@@ -1,12 +1,12 @@
 <html>
 
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <body>
 
-
+<div class = "logindev">
 <form action = "welcome.php" method = "POST">
 <table>
 <tr>
@@ -20,7 +20,7 @@
 </tr>
 </form>
 </table>
-
+</div>
 
 </body>
 </html>

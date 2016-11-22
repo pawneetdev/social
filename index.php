@@ -2,8 +2,8 @@
 
 <head>
 
-<link rel = "stylesheet" href = "style.css">
-<title>Title</title>
+<link rel = "stylesheet" href = "css/style.css">
+<title>Social Media</title>
 
 <script>
 function reg_success()
@@ -19,7 +19,7 @@ document.getElementById('reg_div').innerHTML = '<br><br><br><br><br><br><br><div
 <div class = "logindiv">
 
 <div class = "logo">
-<h1 class = "logo_text">Title</h1>
+<h1 class = "logo_text">Social Media Site</h1>
 </div>
 
 <?php
@@ -28,9 +28,9 @@ include 'login.php';
 
 </div>
 
-<div id = "reg_div" class = "registerdiv">
+<div  id = "reg_div" class = "registerdiv">
 
-<h1>Sign Up Here</h1>
+<h1 align = "center">Join the Community</h1>
 
 <?php
 include 'register.php';

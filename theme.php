@@ -11,16 +11,16 @@
  $theme = mysql_result($query_run, 0, 'theme'); 
  
  if($theme == 1)
- echo "<body background = theme1.jpg>";
+ echo "<body background = themes/theme1.jpg>";
  
  else if($theme == 2)
- echo "<body background = theme2.jpg>";
+ echo "<body background = themes/theme2.jpg>";
  
  else if($theme == 3)
- echo "<body background = theme3.jpg>";
+ echo "<body background = themes/theme3.jpg>";
  
  if($theme == 4)
- echo "<body background = theme4.jpg>";
+ echo "<body background = themes/theme4.jpg>";
  
  }
  

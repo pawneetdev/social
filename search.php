@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <?php
@@ -12,7 +12,7 @@
 ?>
 
 <form action = "search_result.php" method = "GET" style = "padding-top: 2px">
-<input type = "text" name = "search" class = "search_bar" size = '100' Placeholder = "Find users here......">
+<input type = "text" name = "search" class = "search_bar" size = '55' Placeholder = "Find users here......">
 <input class = "button_login" style = "height: 21; width:60;" type = "submit" value = "Search">
 </form>
 
