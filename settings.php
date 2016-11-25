@@ -1,5 +1,5 @@
 <head>
-<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "css/style.css">
 </head>
 
 <body bgcolor = "#B4EEB4">
@@ -63,10 +63,10 @@ $theme = $query_row['theme'];
  <label>Themes</label><br>
  <table>
 	<tr>
-		<td> <label for = "theme1"><img src = "theme1.jpg" class = "theme" alt = "Theme 1"> </label></td>
-		<td> <label for = "theme2"><img src = "theme2.jpg" class = "theme" alt = "Theme 2"> </label></td>
-		<td> <label for = "theme3"><img src = "theme3.jpg" class = "theme" alt = "Theme 3"> </label></td>
-		<td> <label for = "theme4"><img src = "theme4.jpg" class = "theme" alt = "Theme 4"> </label></td>
+		<td> <label for = "theme1"><img src = "themes/theme1.jpg" class = "theme" alt = "Theme 1"> </label></td>
+		<td> <label for = "theme2"><img src = "themes/theme2.jpg" class = "theme" alt = "Theme 2"> </label></td>
+		<td> <label for = "theme3"><img src = "themes/theme3.jpg" class = "theme" alt = "Theme 3"> </label></td>
+		<td> <label for = "theme4"><img src = "themes/theme4.jpg" class = "theme" alt = "Theme 4"> </label></td>
 	<tr>
 	<tr>
 	<?php

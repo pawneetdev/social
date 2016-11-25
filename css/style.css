@@ -1,0 +1,354 @@
+
+
+.logo
+{
+float: left;
+padding-left: 35px;
+}
+
+.logo_text
+{
+font-weight: bold;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+color: #B4EEB4;
+}
+
+.logindiv
+{
+width: 100%;
+height: 100px;
+background-color: #009966;
+-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.registerdiv
+{
+float: right;
+margin-right: 33%;
+background:rgba(255,255,255,0.3);
+-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+box-shadow: 1px 2px 3px rgba(0,0,0,.4);
+
+
+}
+.logindev
+{
+float: right;
+padding-top: 10px;
+margin-right: 31%;
+}
+.loginbox
+{
+float: right;
+padding-right: 90px;
+padding-top: 14px;
+color: white;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: bold;
+font-size: 14px;
+}
+
+.reg_input
+{
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+border: 2px solid #B4EEB4;
+border-radius: 6px;
+padding-left: 3px;
+outline: none;
+}
+
+.reg_input:focus
+{
+border:2px solid #009966;
+}
+
+.login_input
+{
+outline: none;
+border: 2px solid #009966;
+/*box-shadow: 0 0 10px #719ECE;*/
+height: 20px;
+padding-left: 3px;
+height: 25px;
+}
+
+.login_input:focus
+{
+border:2px solid #B4EEB4;
+}
+
+.button_login
+{
+height: 22px;
+background-color: #B4EEB4;
+border:1px solid #B4EEB4;
+color: white;
+cursor: pointer;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+color: green;
+outline: none;
+}
+
+.button_login:focus
+{
+border:1px solid green;
+}
+
+.button_login:hover
+{
+
+background-color: #00C78C;
+border:1px solid #00C78C;
+color: white;
+cursor: pointer;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+
+color: green;
+}
+
+.button_register
+{
+font-size: 20px;
+width: 420px;
+height: 40px;
+background-color: #009966;
+border:1px solid #009966;
+color: white;
+cursor: pointer; 
+border-radius: 7px;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+outline: none;
+}
+
+.button_register:focus
+{
+border:1px solid green;
+}
+
+.button_register:hover
+{
+font-size: 20px;
+width: 420px;
+height: 40px;
+background-color: #008B45;
+border:1px solid #008B45;
+color: white;
+cursor: pointer; 
+border-radius: 7px;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+}
+
+h1
+{
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+}
+
+.reg_success
+{
+padding: 10px;
+font-size: 30px;
+border:2px solid #00C78C;
+width: 375px;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: bold;
+}
+
+.search
+{
+float: left;
+padding-left: 10px;
+padding-top: 4px;
+}
+
+.menu
+{
+float: right;
+padding-right: 45px;
+padding-top: 6px;
+}
+
+.header
+{
+background-color: #009966;
+height: 35px;
+-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.search_bar
+{
+border: none;
+height: 20px;
+padding-left: 4px;
+border:2px solid white;
+outline: none;
+font-size: 12px;
+}
+
+.search_bar:focus
+{
+border:2px solid #B4EEB4;
+}
+
+.link
+{
+text-decoration:none; 
+color: white;
+padding-right: 12px;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+.link:hover
+{
+text-decoration:none; 
+color: rgb(75, 20, 230);
+}
+
+.link_search
+{
+text-decoration:none; 
+color: blue;
+padding-left: 7px;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+.link_search:hover
+{
+text-decoration:none;
+color: purple;
+}
+
+.login_attempt_div
+{
+border: 1px solid black;
+width: 500px;
+height: 300px;
+float: right;
+text-align: center;
+}
+
+.outer_login_attempt_div
+{
+width: 750px;
+}
+
+.button_other
+{
+font-size: 12px;
+width: 50px;
+height: 25px;
+background-color: #009966;
+border:1px solid #009966;
+color: white;
+cursor: pointer;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+outline: none;
+}
+
+.button_other:focus
+{
+border:1px solid green;
+}
+
+.button_other:hover
+{
+font-size: 12px;
+width: 50px;
+height: 25px;
+background-color: #008B45;
+border:1px solid #008B45;
+color: white;
+cursor: pointer;
+font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+font-weight: normal;
+}
+
+.theme
+{
+width: 200;
+height: 130;
+cursor: pointer;
+}
+
+.theme:hover
+{
+width: 300;
+height: 230;
+}
+
+.requestbox
+{
+float:right;
+margin-left:5px;
+width:200px; 
+padding:10px; 
+border:5px solid #9DB68C; 
+background:#CFDBC5;
+}
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
